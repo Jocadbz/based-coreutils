@@ -1,3 +1,5 @@
+// Dog: A cat replacement
+// You probably guessed why I named it that way...
 import os
 
 fn main() {
