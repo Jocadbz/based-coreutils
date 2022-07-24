@@ -2,5 +2,9 @@
 import os
 
 fn main() {
-	println(os.args[1..].join(' '))
+	if os.args[1] == "-n" {
+       	print(os.args[2..].join(' '))
+	} else {
+		println(os.args[1..].join(' '))
+	}
 }
