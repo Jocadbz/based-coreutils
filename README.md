@@ -16,4 +16,8 @@ cd based-coreutils
 v (File)
 ```
 
+### Why you SHOULD NOT use this
+These are utilities that are designed to be written in the worst possible way
+If you actually need useful coreutils written in V check [V's Coreutils](https://github.com/vlang/coreutils)
+
 *Written in V, btw*
